@@ -1,5 +1,6 @@
 /*Schrijf hier jouw CSS*/
 
+/*  Opdracht 1  */
 
 .opdracht-1 ul {
     display: flex;
@@ -7,3 +8,18 @@
     justify-content: space-between;
 }
 
+/*  Opdracht 2  */
+
+.opdracht-2 ul {
+    display: flex;
+}
+
+.opdracht-2 li {
+    flex-basis: 250px;
+}
+
+/*  Opdracht 3  */
+
+/*  Opdracht 4  */
+
+/*  Opdracht 5  */
