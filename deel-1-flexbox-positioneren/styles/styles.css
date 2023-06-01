@@ -36,4 +36,10 @@
 
 /*  Opdracht 4  */
 
+.opdracht-4 ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 /*  Opdracht 5  */
