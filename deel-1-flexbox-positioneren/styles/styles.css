@@ -20,6 +20,20 @@
 
 /*  Opdracht 3  */
 
+.opdracht-3 ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.opdracht-3 .center  {
+    align-self: center;
+}
+
+.opdracht-3 .bottom {
+    align-self: flex-end;
+}
+
+
 /*  Opdracht 4  */
 
 /*  Opdracht 5  */
