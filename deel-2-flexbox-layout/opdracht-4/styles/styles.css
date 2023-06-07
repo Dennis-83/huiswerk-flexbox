@@ -1,1 +1,50 @@
 /*Schrijf hier jouw CSS*/
+
+/* Zou je hier ook twee aparte classes kunnen maken voor flex-direction row/column?
+   ipv hier in CSS per class dit te bepalen, zoals hieronder.
+   Of wordt dan de HTML te onoverzichtelijk met teveel classes aan een element?*/
+
+.flex-container {
+    display: flex;
+}
+
+body {
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.outer-col-2 {
+    flex-direction: column;
+}
+
+.inner-row {
+    flex-direction: row;
+}
+
+.inner-col {
+    flex-direction: column;
+}
+
+nav {
+    flex-basis: 250px;
+}
+
+aside {
+    flex-basis: 250px;
+}
+
+header, footer {
+    flex-basis: 100px;
+}
+
+.resizeable {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.fixed-size {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+

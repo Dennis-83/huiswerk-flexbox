@@ -1,1 +1,93 @@
 /*Schrijf hier jouw css*/
+
+/* beige #F2F3D9  #C16E70  old rose #030027 oxford blue*/
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Blinker', sans-serif;
+    min-height: 100vh;
+    background-color: #F2F3D9;
+    text-align: center;
+
+}
+
+.column-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 40px;
+    margin-top: 50px;
+}
+
+.column-wrapper article {
+    display: flex;
+    background-color: #C16E70;
+    border-radius: 5px;
+    max-width: 280px;
+    height: 350px;
+}
+
+article p {
+    font-size: 20px;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resizeable {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+header {
+    flex-shrink: 0;
+    flex-basis: 100px;
+    display: flex;
+    background-color: #030027;
+    color: white;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    column-gap: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
